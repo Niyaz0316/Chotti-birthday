@@ -5,7 +5,6 @@ const photos = [
   "/lovable-uploads/01bb64b8-38f8-4e12-94c9-80f939460c91.png",
   "/lovable-uploads/890d40db-08ff-4435-a676-a1b8c788168c.png",
   "/lovable-uploads/68480093-d551-4081-ae63-b72b3415626f.png",
-  "/lovable-uploads/e05cd749-f96d-4dc6-9485-f243b95dbca1.png"
   
 ];
 
