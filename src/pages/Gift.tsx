@@ -25,7 +25,7 @@ const Gift = () => {
           className="text-center z-10 relative pt-8 px-4"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 text-shadow-lg">
-            Happy Birthday Ayushka! 🎉
+            Happy Birthday Ayushka (Chotii)! 🎉
           </h1>
           <p className="text-lg md:text-xl text-pink-200 max-w-2xl mx-auto leading-relaxed mb-8">
             May your day be filled with joy, laughter, and all the love in the world!
