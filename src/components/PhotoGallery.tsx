@@ -31,7 +31,7 @@ export const PhotoGallery = () => {
             >
               <img
                 src={photo}
-                alt={`Birthday memory ${index + 1}`}
+                alt={`Birthday Girl ${index + 1}`}
                 className="w-full h-full object-cover"
               />
             </motion.div>
@@ -39,7 +39,7 @@ export const PhotoGallery = () => {
         </div>
         
         <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 px-6 py-1 rounded-full shadow-lg">
-          <span className="text-white font-bold">2025</span>
+          <span className="text-white font-bold"></span>
         </div>
       </motion.div>
     </div>
