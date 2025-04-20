@@ -17,7 +17,6 @@ export const PhotoGallery = () => {
         transition={{ duration: 0.8 }}
       >
         <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 px-8 py-2 rounded-full shadow-lg">
-          <span className="text-white font-bold text-xl">Slay Girl</span>
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
