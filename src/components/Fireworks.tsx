@@ -53,11 +53,11 @@ export const Fireworks = () => {
 
     function createFirework() {
       const x = Math.random() * canvas.width;
-      const y = canvas.height;
-      const colors = ['#ff69b4', '#7b68ee', '#ffd700', '#ff6347', '#00ff7f'];
+      const y = Math.random() * (canvas.height * 0.5); // Launch fireworks in upper half
+      const colors = ['#ff69b4', '#7b68ee', '#ffd700', '#ff6347', '#00ff7f', '#ff1493', '#00ffff'];
       const color = colors[Math.floor(Math.random() * colors.length)];
 
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 100; i++) { // Increased particle count
         particles.push(new Particle(x, y, color));
       }
     }
@@ -69,7 +69,7 @@ export const Fireworks = () => {
       ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      if (timestamp - lastFirework > 500) {
+      if (timestamp - lastFirework > 300) { // Increased frequency
         createFirework();
         lastFirework = timestamp;
       }
@@ -88,7 +88,14 @@ export const Fireworks = () => {
 
     animate(0);
 
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+
+    window.addEventListener('resize', handleResize);
     return () => {
+      window.removeEventListener('resize', handleResize);
       particles.length = 0;
       fireworks.length = 0;
     };
@@ -97,7 +104,7 @@ export const Fireworks = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute top-0 left-0 w-full h-full"
+      className="fixed top-0 left-0 w-full h-full pointer-events-none"
       style={{ background: 'transparent' }}
     />
   );

@@ -22,12 +22,12 @@ const Gift = () => {
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="text-center z-10 relative pt-12 px-4"
+          className="text-center z-10 relative pt-8 px-4"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 text-shadow-lg">
             Happy Birthday Ayushka! 🎉
           </h1>
-          <p className="text-lg md:text-xl text-pink-200 max-w-2xl mx-auto leading-relaxed mb-12">
+          <p className="text-lg md:text-xl text-pink-200 max-w-2xl mx-auto leading-relaxed mb-8">
             May your day be filled with joy, laughter, and all the love in the world!
             Thank you for being such an amazing friend. Here's to many more years of
             friendship and celebrations! 🎂✨
