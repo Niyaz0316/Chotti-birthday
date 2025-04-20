@@ -25,12 +25,10 @@ const Gift = () => {
           className="text-center z-10 relative pt-8 px-4"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 text-shadow-lg">
-            Happy Birthday Ayushka (Chotii)! 🎉
+            Happy Birthday Ayushka 🎉
           </h1>
           <p className="text-lg md:text-xl text-pink-200 max-w-2xl mx-auto leading-relaxed mb-8">
-            May your day be filled with joy, laughter, and all the love in the world!
-            Thank you for being such an amazing friend. Here's to many more years of
-            friendship and celebrations! 🎂✨
+            “ Many more happy returns of the day Chotti!! 🥳. May your day be filled with joy 🤩, laughter, and all the love in the world!. Here's to another fabulous year ahead! Enjoy your special day to the fullest!. And Don’t forget to give Party!!! 😉 “
           </p>
         </motion.div>
       )}
